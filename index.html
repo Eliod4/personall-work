@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhangi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3e82943fe1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="" alt="logo" class="logo"> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xkppwmark" onclick="openmenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Student at Makerere</h1>
+                <p>Hello everyone ,I am <span> Muhangi Elioda</span> <br>from   Livingstone Hall ,Makerere University</p>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+
+    <div id="about">
+        <div class="container">
+                <div class="row">
+            <div class="column-1">
+                <img src="IMG-20220328-WA0052.jpg" alt="">
+            </div>
+            <div class="column-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Muhangi Elioda is student at Makerere University residing in LIvingstone Hall</p>
+                <div class="tag-titles">
+                    <h1 class="tablinks active-link" onclick="opentab('skills')">Skills</h1>
+                    <h1 class="tablinks" onclick="opentab('experience')"> Experience </h1>
+                    <h1 class="tablinks" onclick="opentab('education')">Education</h1>
+                </div>
+                <div class="tabcontents active-tab" id="skills">
+                    <ul>
+                        <li><span>CEO Omega wineries</span><br>Expert in production and branding of wine </li>
+                        <li><span>software engineer</span><br>developing back and front end</li>
+                        <li><span>Graphics designing</span><br>Creating and designing posters</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="experience">
+                    <ul>
+                        <li><span>works in with omega wineries </span><br>Especially in production and branding of wine </li>
+                        <li><span>Developed websites a</span><br>e.g PACE FORWADERS</li>
+                        <li><span>designed posters and logos for differents companies</span><br>e.g Omega wineries and pace Forwaders</li>
+                    </ul>
+                </div>
+                <div class="tabcontents" id="education">
+                    <ul>
+                        <li><span>2012-2014</span><br>Studied From Bweranyangi Junior </li>
+                        <li><span>2015-2020</span><br>Studied From Ntare School</li>
+                        <li><span>2020 up to date</span><br>Doing bachelors at Makerere University</li>
+                    </ul>
+                </div>
+            </div>
+                </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web designing and developing applications</h2>
+                    <p>This involves developing responsive websites both static and dynamic and also <br> creating new applications that use both back and front end </p>
+                    <a href="#">More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Graphics design</h2>
+                    <p>This involves developing crating posters for events  <br>and also personal branding</p>
+                    <a href="#">More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-champagne-glasses"></i>
+                    <h2>Wine production</h2>
+                    <p>This involves preparing wine <br> inorder to meet the customers stardards </p>
+                    <a href="#">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div id="portifolio">
+    <div class="container">
+        <h1 class="sub-title">Portifolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="IMG-20220902-WA0010.jpg" alt="" class="image1">
+                <div class="layer">
+                       <h4>Graphics Designing</h4>
+                       <p>This involves  designing logos and posters for different companies</p>  
+                       <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>          
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMG-20221001-WA0034.jpg"  alt="" class="image2">
+                <div class="layer">
+                      <h4>website designing</h4>
+                      <p>This involves designing different websites and web applications for different companies</p>
+                      <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMG-20220829-WA0007.jpg" alt="" class="image3">
+                <div class="layer">
+                     <h4>Omega wine </h4>
+                     <p>this involves preparation of wine ,its production  and its branding to meet customers needs</p>
+                     <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <div><a href="" class="btn">See More</a></div>
+    </div> 
+   </div>
+   <!----------------contact-->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>Omegawineries@gamail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0780487574</p>
+              <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+
+               </div>
+               <a href="New XLS Worksheet.xls" class="btn btn2">Download Cv</a>
+           </div>
+            <div class="contact-right">
+                <form action="connect.php" method="post">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <input type="text" name="number" placeholder="Telephone number" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="copyright">
+        <p>copyright @0megawineries. Made with Eliod</p>
+   </div>
+    <script>
+        var tablinks=document.getElementsByClassName('tablinks');
+        var tabcontents=document.getElementsByClassName('tabcontents');
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+   
+</body>
+</html>
